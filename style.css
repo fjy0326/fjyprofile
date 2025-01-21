@@ -47,7 +47,7 @@ height: 30px;
     height: 70px;
     display: flex; /* 子要素を横並びに */
     margin: 0;
-    margin-right: 20px;/* マージンリセット */
+    margin-right: 20px;
     padding: 0; /* パディングリセット */
     display: flex;
     justify-content: flex-end; /* 右端に配置 */
@@ -94,14 +94,16 @@ height: 30px;
 }
 
 
-/*ポートフォリオ設定*/
+/*プロフィール設定*/
 
-#portfolio
+#profile
 {
-  width:100%;height:auto;
+  width:100%;
+  height:580px;
   justify-content: center;
   background-color: #ECEFF1;
 }
+
 
 .heading{
   padding-top: 90px;
@@ -109,7 +111,6 @@ height: 30px;
   text-align: center;
   font-size: 32px;
   color: #000000;
-  
 }
 
 .heading::after{
@@ -123,8 +124,9 @@ height: 30px;
 
 .heading-text
 {
+  height: auto;
+  width: auto;
   padding-top: 30px;
-  text-align: center;
   font-size: 16px;
   color: #000000;
 }
@@ -137,6 +139,23 @@ height: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.profile-text
+{
+  height: auto;
+  width: auto;
+  padding-top: 30px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.all-container
+{
+  margin: 0 0 0 auto;
+  height: 250px;
+  width: 500px;
+  justify-content: flex-end; 
 }
 
 .bg
@@ -192,12 +211,6 @@ height: 30px;
 
 /*プロフィール設定*/
 
-#profile
-{
-  width:100%;height:auto;
-  justify-content: center;
-  background-color: #ECEFF1;
-}
 
 
 .container-profile
@@ -206,13 +219,7 @@ height: 30px;
   margin: 0 auto;
 }
 
-.profile-text
-{
-  padding-top: 30px;
-  text-align: center;
-  font-size: 16px;
-  color: #000000;
-}
+
 
 .subheading{
   padding-top: 20px;
